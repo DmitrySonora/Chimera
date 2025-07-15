@@ -1,0 +1,21 @@
+# Сначала базовые зависимости (установятся из PyPI)
+python-telegram-bot==22.2
+requests==2.31.0
+python-dotenv==1.0.1
+filelock>=3.18.0
+huggingface-hub>=0.30.0,<1.0
+psycopg2-binary==2.9.9
+pytz==2025.2
+
+# Для системы инъекций
+redis==5.0.1
+numpy==1.24.3
+sentence-transformers==2.2.2
+
+# PyTorch для M4 с Metal-ускорением (MPS)
+torch>=2.4.0
+torchvision>=0.19.0
+torchaudio>=2.4.0
+
+# Transformers (после torch!)
+transformers>=4.40

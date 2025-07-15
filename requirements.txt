@@ -1,0 +1,27 @@
+# Базовые зависимости
+python-telegram-bot==22.2
+requests==2.31.0
+python-dotenv==1.0.1
+psycopg2-binary==2.9.9
+pytz==2025.2
+
+# Для системы инъекций
+redis==5.0.1
+numpy==1.24.3
+sentence-transformers==2.2.2
+
+# PyTorch CPU версия для Ubuntu
+# Установить командой: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+torch>=2.3.0
+torchvision>=0.18.0
+torchaudio>=2.3.0
+
+# Transformers и Hugging Face
+transformers>=4.40.0
+huggingface-hub>=0.30.0,<1.0
+tokenizers>=0.15.0
+
+# Дополнительные зависимости для работы с моделями
+filelock>=3.18.0
+safetensors>=0.4.0
+accelerate>=0.20.0
